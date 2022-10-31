@@ -1,0 +1,1023 @@
+[00:03:47.629][info] [#0:/home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/main.lua:65]: Lua Lsp startup, root: 	/home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server
+[00:03:47.629][info] [#0:/home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/main.lua:66]: ROOT:	/home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server
+[00:03:47.629][info] [#0:/home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/main.lua:67]: LOGPATH:	/home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/log
+[00:03:47.629][info] [#0:/home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/main.lua:68]: METAPATH:	/home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta
+[00:03:47.629][info] [#0:/home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/main.lua:69]: VERSION:	3.5.6
+[00:03:47.654][info] [#0:script/service/service.lua:141]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 1.907 MB
+        # 00 : 1.907 MB
+        # 01 : 0.000 MB
+        # 02 : 0.000 MB
+        # 03 : 0.000 MB
+        # 04 : 0.000 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[00:03:47.659][info] [#0:script/language.lua:137]: VSC language: en-us
+[00:03:47.659][info] [#0:script/language.lua:138]: LS  language: en-us
+[00:03:47.659][info] [#0:script/workspace/workspace.lua:38]: Workspace init root: 	file:///home/marco/.config
+[00:03:47.659][info] [#0:script/workspace/workspace.lua:42]: Log path: 	/home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/log/file_home_marco_.config.log
+[00:03:47.659][info] [#0:script/workspace/workspace.lua:51]: Workspace create: 	file:///home/marco/.config
+[00:03:47.862][info] [#0:script/provider/provider.lua:41]: Load config from client	file:///home/marco/.config
+[00:03:47.862][info] [#0:script/provider/provider.lua:42]: {
+  Lua = {
+    completion = {
+      autoRequire = true,
+      callSnippet = "Disable",
+      displayContext = 0,
+      enable = true,
+      keywordSnippet = "Replace",
+      postfix = "@",
+      requireSeparator = ".",
+      showParams = true,
+      showWord = "Fallback",
+      workspaceWord = true
+    },
+    diagnostics = {
+      disable = {},
+      disableScheme = { "git" },
+      enable = true,
+      globals = {},
+      ignoredFiles = "Opened",
+      libraryFiles = "Opened",
+      unusedLocalExclude = {},
+      workspaceDelay = 3000,
+      workspaceRate = 100
+    },
+    format = {
+      defaultConfig = {},
+      enable = true
+    },
+    hint = {
+      arrayIndex = "Auto",
+      await = true,
+      enable = true,
+      paramName = "All",
+      paramType = true,
+      semicolon = "SameLine",
+      setType = false
+    },
+    hover = {
+      enable = true,
+      enumsLimit = 5,
+      expandAlias = true,
+      previewFields = 50,
+      viewNumber = true,
+      viewString = true,
+      viewStringMax = 1000
+    },
+    misc = {
+      parameters = {}
+    },
+    runtime = {
+      fileEncoding = "utf8",
+      meta = "${version} ${language} ${encoding}",
+      nonstandardSymbol = {},
+      path = { "?.lua", "?/init.lua" },
+      pathStrict = false,
+      plugin = "",
+      pluginArgs = {},
+      special = {},
+      unicodeName = false,
+      version = "Lua 5.4"
+    },
+    semantic = {
+      annotation = true,
+      enable = true,
+      keyword = false,
+      variable = true
+    },
+    signatureHelp = {
+      enable = true
+    },
+    spell = {
+      dict = {}
+    },
+    telemetry = {
+      enable = false
+    },
+    type = {
+      castNumberToInteger = true,
+      weakNilCheck = false,
+      weakUnionCheck = false
+    },
+    window = {
+      progressBar = true,
+      statusBar = true
+    },
+    workspace = {
+      checkThirdParty = true,
+      ignoreDir = { ".vscode" },
+      ignoreSubmodules = true,
+      library = {},
+      maxPreload = 5000,
+      preloadFileSize = 500,
+      supportScheme = { "file", "untitled", "git" },
+      useGitIgnore = true,
+      userThirdParty = {}
+    }
+  }
+}
+[00:03:47.962][info] [#0:script/provider/provider.lua:56]: Load config from client	fallback
+[00:03:47.963][info] [#0:script/provider/provider.lua:57]: {
+  Lua = {
+    completion = {
+      autoRequire = true,
+      callSnippet = "Disable",
+      displayContext = 0,
+      enable = true,
+      keywordSnippet = "Replace",
+      postfix = "@",
+      requireSeparator = ".",
+      showParams = true,
+      showWord = "Fallback",
+      workspaceWord = true
+    },
+    diagnostics = {
+      disable = {},
+      disableScheme = { "git" },
+      enable = true,
+      globals = {},
+      ignoredFiles = "Opened",
+      libraryFiles = "Opened",
+      unusedLocalExclude = {},
+      workspaceDelay = 3000,
+      workspaceRate = 100
+    },
+    format = {
+      defaultConfig = {},
+      enable = true
+    },
+    hint = {
+      arrayIndex = "Auto",
+      await = true,
+      enable = true,
+      paramName = "All",
+      paramType = true,
+      semicolon = "SameLine",
+      setType = false
+    },
+    hover = {
+      enable = true,
+      enumsLimit = 5,
+      expandAlias = true,
+      previewFields = 50,
+      viewNumber = true,
+      viewString = true,
+      viewStringMax = 1000
+    },
+    misc = {
+      parameters = {}
+    },
+    runtime = {
+      fileEncoding = "utf8",
+      meta = "${version} ${language} ${encoding}",
+      nonstandardSymbol = {},
+      path = { "?.lua", "?/init.lua" },
+      pathStrict = false,
+      plugin = "",
+      pluginArgs = {},
+      special = {},
+      unicodeName = false,
+      version = "Lua 5.4"
+    },
+    semantic = {
+      annotation = true,
+      enable = true,
+      keyword = false,
+      variable = true
+    },
+    signatureHelp = {
+      enable = true
+    },
+    spell = {
+      dict = {}
+    },
+    telemetry = {
+      enable = false
+    },
+    type = {
+      castNumberToInteger = true,
+      weakNilCheck = false,
+      weakUnionCheck = false
+    },
+    window = {
+      progressBar = true,
+      statusBar = true
+    },
+    workspace = {
+      checkThirdParty = true,
+      ignoreDir = { ".vscode" },
+      ignoreSubmodules = true,
+      library = {},
+      maxPreload = 5000,
+      preloadFileSize = 500,
+      supportScheme = { "file", "untitled", "git" },
+      useGitIgnore = true,
+      userThirdParty = {}
+    }
+  }
+}
+[00:03:48.064][info] [#0:script/library.lua:207]: Init builtin library at:	file:///home/marco/.config
+[00:03:48.073][info] [#0:script/plugin.lua:86]: plugin path:	/home/marco/.config
+[00:03:48.073][warn] [#0:script/plugin.lua:101]: plugin not found:	/home/marco/.config
+[00:03:48.073][info] [#0:script/library.lua:207]: Init builtin library at:	nil
+[00:03:48.078][info] [#0:script/provider/completion.lua:43]: Enable completion.
+[00:03:48.079][info] [#0:script/workspace/workspace.lua:305]: Preload start:	file:///home/marco/.config
+[00:03:48.079][info] [#0:script/workspace/workspace.lua:311]: Scan files at:	file:///home/marco/.config
+[00:03:48.080][info] [#0:script/workspace/workspace.lua:305]: Preload start:	<fallback>
+[00:03:48.080][info] [#0:script/workspace/workspace.lua:328]: Scan library at:	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/Lua%205.4%20en-us%20utf8
+[00:03:48.728][info] [#0:script/workspace/workspace.lua:328]: Scan library at:	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/Lua%205.4%20en-us%20utf8
+[00:03:48.729][info] [#0:script/workspace/workspace.lua:348]: Found 11 files at:	<fallback>
+[00:03:48.729][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	<fallback>
+[00:03:48.729][info] [#0:script/workspace/workspace.lua:348]: Found 876 files at:	file:///home/marco/.config
+[00:03:48.729][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/marco/.config
+[00:03:48.948][warn] [#0:script/files.lua:544]: Parse LuaDoc of [file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Jass/library/jass/common.lua] takes [0.114] sec, size [448.808] kb.
+[00:03:50.606][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [1.913] sec: <fallback>
+[00:03:50.606][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: <fallback>
+[00:03:50.606][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	<fallback>
+[00:03:50.606][info] [#0:script/workspace/workspace.lua:350]: Preload finish at:	<fallback>
+[00:03:50.854][warn] [#0:script/files.lua:532]: Compile [file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/locale/zh-tw/meta.lua] takes [0.119] sec, size [31.513] kb.
+[00:03:51.005][warn] [#0:script/proto/proto.lua:122]: Response of [workspace/diagnostic/refresh] error [-32601]: Unhandled method workspace/diagnostic/refresh
+[00:03:52.664][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [2.319] sec: file:///home/marco/.config
+[00:03:52.664][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/marco/.config
+[00:03:52.664][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/marco/.config
+[00:03:52.664][info] [#0:script/workspace/workspace.lua:350]: Preload finish at:	file:///home/marco/.config
+[00:03:53.059][warn] [#0:script/proto/proto.lua:122]: Response of [workspace/diagnostic/refresh] error [-32601]: Unhandled method workspace/diagnostic/refresh
+[00:03:53.062][warn] [#0:script/proto/proto.lua:171]: Method [textDocument/inlayHint] takes [3.264]sec. {
+  id = 3,
+  jsonrpc = "2.0",
+  method = "textDocument/inlayHint",
+  params = {
+    range = {
+      end = {
+        character = 0,
+        line = 5
+      },
+      start = {
+        character = 0,
+        line = 0
+      }
+    },
+    textDocument = {
+      uri = "file:///home/marco/.config/nvim/after/plugin/color.lua"
+    }
+  }
+}
+[00:03:53.063][info] [#0:script/provider/diagnostic.lua:486]: Diagnostics scope [file:///home/marco/.config], files count:[864]
+[00:03:57.034][info] [#0:script/provider/provider.lua:41]: Load config from client	file:///home/marco/.config
+[00:03:57.034][info] [#0:script/provider/provider.lua:42]: {
+  Lua = {
+    completion = {
+      autoRequire = true,
+      callSnippet = "Disable",
+      displayContext = 0,
+      enable = true,
+      keywordSnippet = "Replace",
+      postfix = "@",
+      requireSeparator = ".",
+      showParams = true,
+      showWord = "Fallback",
+      workspaceWord = true
+    },
+    diagnostics = {
+      disable = {},
+      disableScheme = { "git" },
+      enable = true,
+      globals = {},
+      ignoredFiles = "Opened",
+      libraryFiles = "Opened",
+      unusedLocalExclude = {},
+      workspaceDelay = 3000,
+      workspaceRate = 100
+    },
+    format = {
+      defaultConfig = {},
+      enable = true
+    },
+    hint = {
+      arrayIndex = "Auto",
+      await = true,
+      enable = true,
+      paramName = "All",
+      paramType = true,
+      semicolon = "SameLine",
+      setType = false
+    },
+    hover = {
+      enable = true,
+      enumsLimit = 5,
+      expandAlias = true,
+      previewFields = 50,
+      viewNumber = true,
+      viewString = true,
+      viewStringMax = 1000
+    },
+    misc = {
+      parameters = {}
+    },
+    runtime = {
+      fileEncoding = "utf8",
+      meta = "${version} ${language} ${encoding}",
+      nonstandardSymbol = {},
+      path = { "?.lua", "?/init.lua" },
+      pathStrict = false,
+      plugin = "",
+      pluginArgs = {},
+      special = {},
+      unicodeName = false,
+      version = "Lua 5.4"
+    },
+    semantic = {
+      annotation = true,
+      enable = true,
+      keyword = false,
+      variable = true
+    },
+    signatureHelp = {
+      enable = true
+    },
+    spell = {
+      dict = {}
+    },
+    telemetry = {
+      enable = false
+    },
+    type = {
+      castNumberToInteger = true,
+      weakNilCheck = false,
+      weakUnionCheck = false
+    },
+    window = {
+      progressBar = true,
+      statusBar = true
+    },
+    workspace = {
+      checkThirdParty = false,
+      ignoreDir = { ".vscode" },
+      ignoreSubmodules = true,
+      library = {},
+      maxPreload = 5000,
+      preloadFileSize = 500,
+      supportScheme = { "file", "untitled", "git" },
+      useGitIgnore = true,
+      userThirdParty = {}
+    }
+  }
+}
+[00:03:57.037][info] [#0:script/provider/provider.lua:56]: Load config from client	fallback
+[00:03:57.037][info] [#0:script/provider/provider.lua:57]: {
+  Lua = {
+    completion = {
+      autoRequire = true,
+      callSnippet = "Disable",
+      displayContext = 0,
+      enable = true,
+      keywordSnippet = "Replace",
+      postfix = "@",
+      requireSeparator = ".",
+      showParams = true,
+      showWord = "Fallback",
+      workspaceWord = true
+    },
+    diagnostics = {
+      disable = {},
+      disableScheme = { "git" },
+      enable = true,
+      globals = {},
+      ignoredFiles = "Opened",
+      libraryFiles = "Opened",
+      unusedLocalExclude = {},
+      workspaceDelay = 3000,
+      workspaceRate = 100
+    },
+    format = {
+      defaultConfig = {},
+      enable = true
+    },
+    hint = {
+      arrayIndex = "Auto",
+      await = true,
+      enable = true,
+      paramName = "All",
+      paramType = true,
+      semicolon = "SameLine",
+      setType = false
+    },
+    hover = {
+      enable = true,
+      enumsLimit = 5,
+      expandAlias = true,
+      previewFields = 50,
+      viewNumber = true,
+      viewString = true,
+      viewStringMax = 1000
+    },
+    misc = {
+      parameters = {}
+    },
+    runtime = {
+      fileEncoding = "utf8",
+      meta = "${version} ${language} ${encoding}",
+      nonstandardSymbol = {},
+      path = { "?.lua", "?/init.lua" },
+      pathStrict = false,
+      plugin = "",
+      pluginArgs = {},
+      special = {},
+      unicodeName = false,
+      version = "Lua 5.4"
+    },
+    semantic = {
+      annotation = true,
+      enable = true,
+      keyword = false,
+      variable = true
+    },
+    signatureHelp = {
+      enable = true
+    },
+    spell = {
+      dict = {}
+    },
+    telemetry = {
+      enable = false
+    },
+    type = {
+      castNumberToInteger = true,
+      weakNilCheck = false,
+      weakUnionCheck = false
+    },
+    window = {
+      progressBar = true,
+      statusBar = true
+    },
+    workspace = {
+      checkThirdParty = false,
+      ignoreDir = { ".vscode" },
+      ignoreSubmodules = true,
+      library = {},
+      maxPreload = 5000,
+      preloadFileSize = 500,
+      supportScheme = { "file", "untitled", "git" },
+      useGitIgnore = true,
+      userThirdParty = {}
+    }
+  }
+}
+[00:03:58.122][info] [#0:script/provider/diagnostic.lua:503]: Diagnostics scope [file:///home/marco/.config] finished, takes [5.057] sec.
+[00:03:58.129][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/ParticleBatchNode.lua
+[00:03:58.129][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/LayerColor.lua
+[00:03:58.130][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/config.lua
+[00:03:58.130][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/EventListenerKeyboard.lua
+[00:03:58.130][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/EaseRateAction.lua
+[00:03:58.130][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/EventCustom.lua
+[00:03:58.130][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Physics3DPointToPointConstraint.lua
+[00:03:58.130][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccs/SpriteDisplayData.lua
+[00:03:58.130][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/SpriteFrame.lua
+[00:03:58.130][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/ProgressFromTo.lua
+[00:03:58.130][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/ParallaxNode.lua
+[00:03:58.130][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccs/SkewFrame.lua
+[00:03:58.130][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/lovr/library/lovr/data.lua
+[00:03:58.130][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/PhysicsJointMotor.lua
+[00:03:58.131][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccs/MovementData.lua
+[00:03:58.131][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/ProtectedNode.lua
+[00:03:58.131][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/ParticleSun.lua
+[00:03:58.131][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/template/bit.lua
+[00:03:58.131][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/TileMapAtlas.lua
+[00:03:58.131][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/RenderTexture.lua
+[00:03:58.131][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/skynet/library/skynet/socketdriver.lua
+[00:03:58.131][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/FadeIn.lua
+[00:03:58.131][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccb/ProgramState.lua
+[00:03:58.131][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/TableViewCell.lua
+[00:03:58.131][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/ActionTween.lua
+[00:03:58.131][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccui/ImageView.lua
+[00:03:58.132][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/PhysicsContactPreSolve.lua
+[00:03:58.132][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/PageTurn3D.lua
+[00:03:58.132][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccs/ComRender.lua
+[00:03:58.132][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/skynet/library/skynet/netpack.lua
+[00:03:58.132][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Waves.lua
+[00:03:58.132][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccui/LayoutParameter.lua
+[00:03:58.132][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Application.lua
+[00:03:58.132][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/FileUtils.lua
+[00:03:58.132][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/ParticleSmoke.lua
+[00:03:58.132][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/AutoPolygon.lua
+[00:03:58.132][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Physics3DSliderConstraint.lua
+[00:03:58.133][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/ParticleData.lua
+[00:03:58.133][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccs/SceneReader.lua
+[00:03:58.133][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccui/Layout.lua
+[00:03:58.133][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/EaseCubicActionOut.lua
+[00:03:58.133][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccs/ComExtensionData.lua
+[00:03:58.133][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/EaseQuinticActionInOut.lua
+[00:03:58.133][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/FiniteTimeAction.lua
+[00:03:58.133][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/BaseLight.lua
+[00:03:58.133][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/EventListenerPhysicsContactWithShapes.lua
+[00:03:58.134][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Animation3D.lua
+[00:03:58.134][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/JumpTiles3D.lua
+[00:03:58.134][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/PUParticleSystem3D.lua
+[00:03:58.134][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccs/RotationFrame.lua
+[00:03:58.134][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Show.lua
+[00:03:58.134][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/PhysicsJointLimit.lua
+[00:03:58.134][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/AttachNode.lua
+[00:03:58.134][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccui/Widget.lua
+[00:03:58.134][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/TransitionCrossFade.lua
+[00:03:58.134][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/AnimationFrame.lua
+[00:03:58.134][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/ControlSwitch.lua
+[00:03:58.134][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/RemoveSelf.lua
+[00:03:58.134][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/node_modules/coc-sumneko-lua/nvim_lua_types/lua.lua
+[00:03:58.134][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/PhysicsShapeBox.lua
+[00:03:58.135][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Liquid.lua
+[00:03:58.135][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/OpenResty/library/resty/websocket/client.lua
+[00:03:58.135][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/script/core/diagnostics/init.lua
+[00:03:58.135][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Lens3D.lua
+[00:03:58.135][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/TransitionProgressOutIn.lua
+[00:03:58.135][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/WavesTiles3D.lua
+[00:03:58.135][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/TransitionShrinkGrow.lua
+[00:03:58.135][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/RotateBy.lua
+[00:03:58.135][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccui/VBox.lua
+[00:03:58.135][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccs/ColorFrame.lua
+[00:03:58.135][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/ControlSaturationBrightnessPicker.lua
+[00:03:58.135][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/ControlButton.lua
+[00:03:58.135][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/TransitionMoveInR.lua
+[00:03:58.135][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/MoveBy.lua
+[00:03:58.135][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/TurnOffTiles.lua
+[00:03:58.135][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/BillBoard.lua
+[00:03:58.136][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccui/RichElement.lua
+[00:03:58.136][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/love2d/library/love/event.lua
+[00:03:58.136][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/EventListenerMouse.lua
+[00:03:58.136][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/ControlStepper.lua
+[00:03:58.136][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/PhysicsJointRotarySpring.lua
+[00:03:58.136][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/template/jit.lua
+[00:03:58.136][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccui/ListView.lua
+[00:03:58.136][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/TransitionFlipX.lua
+[00:03:58.136][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccs/RotationSkewFrame.lua
+[00:03:58.136][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Node.lua
+[00:03:58.136][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/script/proto/converter.lua
+[00:03:58.136][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/ShakyTiles3D.lua
+[00:03:58.136][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/PhysicsJointGear.lua
+[00:03:58.136][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Skybox.lua
+[00:03:58.136][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/ClippingNode.lua
+[00:03:58.137][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/TransitionJumpZoom.lua
+[00:03:58.137][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/TransitionFlipAngular.lua
+[00:03:58.137][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccs/ActionMoveFrame.lua
+[00:03:58.137][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/ActionManager.lua
+[00:03:58.137][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/EventMouse.lua
+[00:03:58.137][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/GridAction.lua
+[00:03:58.137][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Sprite3DCache.lua
+[00:03:58.137][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/TransitionMoveInL.lua
+[00:03:58.137][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/ProgressTo.lua
+[00:03:58.137][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/node_modules/coc-sumneko-lua/nvim_lua_types/diagnostic.lua
+[00:03:58.137][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/ParticleSystemQuad.lua
+[00:03:58.137][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/MenuItemLabel.lua
+[00:03:58.138][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/EventListenerCustom.lua
+[00:03:58.138][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Animate3D.lua
+[00:03:58.138][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/EventListenerPhysicsContactWithBodies.lua
+[00:03:58.138][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Bundle3D.lua
+[00:03:58.138][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/TransitionPageTurn.lua
+[00:03:58.138][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/LayerGradient.lua
+[00:03:58.138][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/EaseCircleActionOut.lua
+[00:03:58.138][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/TransitionTurnOffTiles.lua
+[00:03:58.138][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/StopGrid.lua
+[00:03:58.138][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/MoveTo.lua
+[00:03:58.138][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/EaseQuinticActionIn.lua
+[00:03:58.138][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/EventListener.lua
+[00:03:58.138][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccs/ActionTimelineNode.lua
+[00:03:58.138][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/TMXLayerInfo.lua
+[00:03:58.138][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/log/middleScript.lua
+[00:03:58.138][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/AudioProfile.lua
+[00:03:58.139][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/EaseElastic.lua
+[00:03:58.139][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/TMXLayer.lua
+[00:03:58.139][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/RotateTo.lua
+[00:03:58.139][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccs/ActionObject.lua
+[00:03:58.139][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/MotionStreak.lua
+[00:03:58.139][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/PhysicsJointFixed.lua
+[00:03:58.139][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccui/LoadingBar.lua
+[00:03:58.139][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/EaseBackInOut.lua
+[00:03:58.139][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/ToggleVisibility.lua
+[00:03:58.139][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/EaseQuarticActionInOut.lua
+[00:03:58.139][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/MenuItemToggle.lua
+[00:03:58.139][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/love2d/config.lua
+[00:03:58.139][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccui/LayoutComponent.lua
+[00:03:58.140][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/skynet/library/skynet/socketchannel.lua
+[00:03:58.140][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Place.lua
+[00:03:58.140][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/template/io.lua
+[00:03:58.140][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Console.lua
+[00:03:58.140][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/FlipY3D.lua
+[00:03:58.140][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/PhysicsJointSpring.lua
+[00:03:58.140][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Physics3DObject.lua
+[00:03:58.140][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/EventListenerFocus.lua
+[00:03:58.141][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/TransitionMoveInB.lua
+[00:03:58.141][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/AsyncTaskPool.lua
+[00:03:58.141][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/script/vm/node.lua
+[00:03:58.141][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Follow.lua
+[00:03:58.141][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/EaseInOut.lua
+[00:03:58.141][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/CameraBackgroundBrush.lua
+[00:03:58.141][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/example/config.lua
+[00:03:58.141][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/FlipX.lua
+[00:03:58.141][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccs/BoneData.lua
+[00:03:58.141][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/TransitionScene.lua
+[00:03:58.142][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Ripple3D.lua
+[00:03:58.142][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/EventAssetsManagerEx.lua
+[00:03:58.142][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/ParticleMeteor.lua
+[00:03:58.142][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/lfs/library/lfs.lua
+[00:03:58.142][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/PhysicsShape.lua
+[00:03:58.142][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/node_modules/coc-sumneko-lua/nvim_lua_types/vim.lua
+[00:03:58.142][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccui/WebView.lua
+[00:03:58.142][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/ControlHuePicker.lua
+[00:03:58.142][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/ActionInterval.lua
+[00:03:58.142][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/TMXObjectGroup.lua
+[00:03:58.142][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Event.lua
+[00:03:58.143][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Physics3DHingeConstraint.lua
+[00:03:58.143][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Skeleton3D.lua
+[00:03:58.143][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccs/BoneNode.lua
+[00:03:58.143][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/EaseQuadraticActionIn.lua
+[00:03:58.143][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/TableView.lua
+[00:03:58.143][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/sp/SkeletonRenderer.lua
+[00:03:58.143][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/PhysicsJointDistance.lua
+[00:03:58.144][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/TextureCube.lua
+[00:03:58.144][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccs/TextureData.lua
+[00:03:58.144][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/SkewBy.lua
+[00:03:58.144][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/EaseElasticInOut.lua
+[00:03:58.144][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/TextureCache.lua
+[00:03:58.144][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Grid3DAction.lua
+[00:03:58.144][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/ParticleSpiral.lua
+[00:03:58.144][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/EventListenerAssetsManagerEx.lua
+[00:03:58.144][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/FastTMXLayer.lua
+[00:03:58.144][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/AssetsManager.lua
+[00:03:58.144][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/SpriteBatchNode.lua
+[00:03:58.144][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/LayerRadialGradient.lua
+[00:03:58.144][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/MenuItemImage.lua
+[00:03:58.144][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/TransitionFade.lua
+[00:03:58.144][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/EaseQuarticActionOut.lua
+[00:03:58.144][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/FadeOutDownTiles.lua
+[00:03:58.144][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Controller.lua
+[00:03:58.145][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/TransitionProgressRadialCW.lua
+[00:03:58.145][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/EaseCubicActionInOut.lua
+[00:03:58.145][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/MotionStreak3D.lua
+[00:03:58.145][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/TransitionZoomFlipY.lua
+[00:03:58.145][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/EaseExponentialOut.lua
+[00:03:58.145][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/skynet/config.lua
+[00:03:58.145][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/love2d/library/love/math.lua
+[00:03:58.145][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/EaseBackIn.lua
+[00:03:58.145][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccui/TextField.lua
+[00:03:58.145][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Terrain.lua
+[00:03:58.145][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccui/Button.lua
+[00:03:58.145][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccs/ActionRotationFrame.lua
+[00:03:58.145][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/PhysicsSprite3D.lua
+[00:03:58.145][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/EaseCubicActionIn.lua
+[00:03:58.145][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccs/ContourData.lua
+[00:03:58.146][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccs/Timeline.lua
+[00:03:58.146][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/ScaleBy.lua
+[00:03:58.146][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/PhysicsShapeEdgeSegment.lua
+[00:03:58.146][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/GLView.lua
+[00:03:58.146][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/TransitionProgressVertical.lua
+[00:03:58.146][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/CSLoader.lua
+[00:03:58.146][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/NavMesh.lua
+[00:03:58.146][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/DrawNode.lua
+[00:03:58.146][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/LayerMultiplex.lua
+[00:03:58.146][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/EventListenerAcceleration.lua
+[00:03:58.146][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/ScaleTo.lua
+[00:03:58.146][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/TMXTilesetInfo.lua
+[00:03:58.146][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Material.lua
+[00:03:58.146][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/PhysicsJointPin.lua
+[00:03:58.146][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/TMXTiledMap.lua
+[00:03:58.146][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/ActionInstant.lua
+[00:03:58.147][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Sprite3DMaterial.lua
+[00:03:58.147][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Device.lua
+[00:03:58.147][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/TiledGrid3D.lua
+[00:03:58.147][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/BezierTo.lua
+[00:03:58.147][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/ParticleExplosion.lua
+[00:03:58.147][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/ParticleSystem3D.lua
+[00:03:58.147][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/TransitionSceneOriented.lua
+[00:03:58.147][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/EaseSineInOut.lua
+[00:03:58.147][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/AudioEngine.lua
+[00:03:58.147][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccs/Skin.lua
+[00:03:58.148][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/NavMeshAgent.lua
+[00:03:58.148][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Label.lua
+[00:03:58.148][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/ReuseGrid.lua
+[00:03:58.148][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/NodeGrid.lua
+[00:03:58.148][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Ref.lua
+[00:03:58.148][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/SplitRows.lua
+[00:03:58.148][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Physics3DComponent.lua
+[00:03:58.148][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/ParticleFire.lua
+[00:03:58.148][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Grid3D.lua
+[00:03:58.148][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccs/TextureFrame.lua
+[00:03:58.148][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/EaseElasticOut.lua
+[00:03:58.148][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/EventListenerTouchAllAtOnce.lua
+[00:03:58.148][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/ClippingRectangleNode.lua
+[00:03:58.149][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccui/Scale9Sprite.lua
+[00:03:58.149][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccui/Text.lua
+[00:03:58.149][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/CatmullRomBy.lua
+[00:03:58.149][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Sprite.lua
+[00:03:58.149][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/EventFocus.lua
+[00:03:58.149][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/script/core/type-formatting.lua
+[00:03:58.149][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Physics3DRigidBody.lua
+[00:03:58.149][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/TransitionSlideInT.lua
+[00:03:58.149][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Layer.lua
+[00:03:58.149][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Shaky3D.lua
+[00:03:58.149][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/ActionFloat.lua
+[00:03:58.149][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/TransitionSlideInB.lua
+[00:03:58.149][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/EaseExponentialInOut.lua
+[00:03:58.149][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/ProgressTimer.lua
+[00:03:58.149][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/ParticleFlower.lua
+[00:03:58.150][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/PhysicsJoint.lua
+[00:03:58.150][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/CatmullRomTo.lua
+[00:03:58.150][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/BezierBy.lua
+[00:03:58.150][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/UserDefault.lua
+[00:03:58.150][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/script/vm/compiler.lua
+[00:03:58.150][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Camera.lua
+[00:03:58.150][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/EaseQuinticActionOut.lua
+[00:03:58.150][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/CallFunc.lua
+[00:03:58.150][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Physics3DWorld.lua
+[00:03:58.150][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccui/RelativeLayoutParameter.lua
+[00:03:58.150][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/JumpBy.lua
+[00:03:58.151][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/script/proto/proto.lua
+[00:03:58.151][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/TransitionFadeTR.lua
+[00:03:58.151][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/FadeOut.lua
+[00:03:58.151][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccui/RichElementNewLine.lua
+[00:03:58.151][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/EaseExponentialIn.lua
+[00:03:58.151][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Spawn.lua
+[00:03:58.151][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccui/RichElementCustomNode.lua
+[00:03:58.151][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Menu.lua
+[00:03:58.151][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/FadeOutBLTiles.lua
+[00:03:58.151][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccs/DisplayData.lua
+[00:03:58.151][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/ComponentLua.lua
+[00:03:58.151][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/TiledGrid3DAction.lua
+[00:03:58.151][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Physics3DConstraint.lua
+[00:03:58.152][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/EaseCircleActionInOut.lua
+[00:03:58.152][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/FadeTo.lua
+[00:03:58.152][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/EaseSineIn.lua
+[00:03:58.152][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/lfs/config.lua
+[00:03:58.152][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/MenuItem.lua
+[00:03:58.152][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/ShatteredTiles3D.lua
+[00:03:58.152][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/AmbientLight.lua
+[00:03:58.152][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/node_modules/coc-sumneko-lua/nvim_lua_types/api.lua
+[00:03:58.152][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccs/ComController.lua
+[00:03:58.152][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/AtlasNode.lua
+[00:03:58.152][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Timer.lua
+[00:03:58.152][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/template/os.lua
+[00:03:58.153][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Physics3DConeTwistConstraint.lua
+[00:03:58.153][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/FastTMXTiledMap.lua
+[00:03:58.153][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/PolygonInfo.lua
+[00:03:58.153][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/EventListenerPhysicsContactWithGroup.lua
+[00:03:58.153][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/EventController.lua
+[00:03:58.153][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccui/RelativeBox.lua
+[00:03:58.153][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/TransitionFadeDown.lua
+[00:03:58.153][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/CameraBackgroundColorBrush.lua
+[00:03:58.153][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccs/Bone.lua
+[00:03:58.153][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/TransitionProgressInOut.lua
+[00:03:58.153][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/template/debug.lua
+[00:03:58.154][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/FlipY.lua
+[00:03:58.154][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Jass/library/jass/common.lua
+[00:03:58.154][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Jass/config.lua
+[00:03:58.154][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/skynet/library/skynet/profile.lua
+[00:03:58.154][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/SkewTo.lua
+[00:03:58.154][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/skynet/library/skynet/db/mongo.lua
+[00:03:58.154][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/lovr/library/lovr/graphics.lua
+[00:03:58.154][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/lovr/library/lovr/math.lua
+[00:03:58.154][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/lovr/library/lovr/filesystem.lua
+[00:03:58.154][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/lovr/config.lua
+[00:03:58.154][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/OpenResty/library/jit.lua
+[00:03:58.155][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/OpenResty/library/resty/websocket/protocol.lua
+[00:03:58.155][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/template/basic.lua
+[00:03:58.156][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/OpenResty/config.lua
+[00:03:58.156][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/NavMeshObstacle.lua
+[00:03:58.156][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccs/ArmatureDisplayData.lua
+[00:03:58.156][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccs/ActionFrame.lua
+[00:03:58.156][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccs/ActionManagerEx.lua
+[00:03:58.156][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccs/BaseData.lua
+[00:03:58.156][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccs/MovementBoneData.lua
+[00:03:58.156][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccs/InnerActionFrame.lua
+[00:03:58.156][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccs/AlphaFrame.lua
+[00:03:58.156][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccs/GUIReader.lua
+[00:03:58.156][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccs/ScaleFrame.lua
+[00:03:58.156][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccs/ZOrderFrame.lua
+[00:03:58.156][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccs/PlayableFrame.lua
+[00:03:58.156][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccs/ActionTimelineData.lua
+[00:03:58.157][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccs/ComAudio.lua
+[00:03:58.157][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccs/FrameData.lua
+[00:03:58.157][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccs/AnimationData.lua
+[00:03:58.157][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccs/Frame.lua
+[00:03:58.157][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccs/ParticleDisplayData.lua
+[00:03:58.157][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccs/ComAttribute.lua
+[00:03:58.157][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccs/BlendFuncFrame.lua
+[00:03:58.157][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccs/AnchorPointFrame.lua
+[00:03:58.157][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccs/VisibleFrame.lua
+[00:03:58.157][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccs/ActionFadeFrame.lua
+[00:03:58.157][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccs/EventFrame.lua
+[00:03:58.157][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccs/SkeletonNode.lua
+[00:03:58.157][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccs/ActionTintFrame.lua
+[00:03:58.157][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccs/ArmatureAnimation.lua
+[00:03:58.157][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccs/ArmatureDataManager.lua
+[00:03:58.157][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccs/DisplayManager.lua
+[00:03:58.157][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccs/PositionFrame.lua
+[00:03:58.157][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccui/VideoPlayer.lua
+[00:03:58.157][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccui/HBox.lua
+[00:03:58.157][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccui/RadioButton.lua
+[00:03:58.157][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccui/RadioButtonGroup.lua
+[00:03:58.157][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccui/TextAtlas.lua
+[00:03:58.157][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccui/CheckBox.lua
+[00:03:58.158][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccui/RichElementImage.lua
+[00:03:58.158][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccui/PageView.lua
+[00:03:58.158][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Blink.lua
+[00:03:58.158][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccui/ScrollView.lua
+[00:03:58.158][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccui/RichText.lua
+[00:03:58.158][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccui/Helper.lua
+[00:03:58.158][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccui/TextBMFont.lua
+[00:03:58.158][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccui/LinearLayoutParameter.lua
+[00:03:58.158][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccui/Slider.lua
+[00:03:58.158][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccui/EditBox.lua
+[00:03:58.158][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccui/AbstractCheckButton.lua
+[00:03:58.158][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Touch.lua
+[00:03:58.158][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/FlipX3D.lua
+[00:03:58.158][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/EaseBounceIn.lua
+[00:03:58.158][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/EaseQuarticActionIn.lua
+[00:03:58.158][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/TransitionSplitRows.lua
+[00:03:58.158][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Texture2D.lua
+[00:03:58.158][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/TransitionFlipY.lua
+[00:03:58.158][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/CameraBackgroundSkyBoxBrush.lua
+[00:03:58.159][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/PhysicsJointRatchet.lua
+[00:03:58.159][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/SpotLight.lua
+[00:03:58.159][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/RepeatForever.lua
+[00:03:58.159][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Hide.lua
+[00:03:58.159][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Waves3D.lua
+[00:03:58.159][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/TintTo.lua
+[00:03:58.159][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Technique.lua
+[00:03:58.159][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/EaseElasticIn.lua
+[00:03:58.159][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/ControlColourPicker.lua
+[00:03:58.159][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Pass.lua
+[00:03:58.159][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/ControlSlider.lua
+[00:03:58.159][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/TransitionMoveInT.lua
+[00:03:58.159][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/ParticleSnow.lua
+[00:03:58.159][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/EventListenerTouchOneByOne.lua
+[00:03:58.159][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Sequence.lua
+[00:03:58.159][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/CameraBackgroundDepthBrush.lua
+[00:03:58.159][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/MenuItemSprite.lua
+[00:03:58.159][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Scene.lua
+[00:03:58.159][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/MenuItemAtlasFont.lua
+[00:03:58.159][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/EaseSineOut.lua
+[00:03:58.160][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/EaseBezierAction.lua
+[00:03:58.160][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/TransitionRotoZoom.lua
+[00:03:58.160][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Control.lua
+[00:03:58.160][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/LabelAtlas.lua
+[00:03:58.160][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/GLViewImpl.lua
+[00:03:58.160][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Twirl.lua
+[00:03:58.160][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Scheduler.lua
+[00:03:58.160][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/TransitionSlideInR.lua
+[00:03:58.160][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/ParticleGalaxy.lua
+[00:03:58.160][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/EaseIn.lua
+[00:03:58.160][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/EventListenerController.lua
+[00:03:58.160][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccs/Tween.lua
+[00:03:58.160][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/ParticleSystem.lua
+[00:03:58.160][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/TransitionZoomFlipX.lua
+[00:03:58.160][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/ActionEase.lua
+[00:03:58.160][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/TintBy.lua
+[00:03:58.161][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Director.lua
+[00:03:58.161][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccs/BatchNode.lua
+[00:03:58.161][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Image.lua
+[00:03:58.161][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Action.lua
+[00:03:58.161][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/PhysicsWorld.lua
+[00:03:58.161][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Properties.lua
+[00:03:58.161][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/OrbitCamera.lua
+[00:03:58.161][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/PhysicsJointRotaryLimit.lua
+[00:03:58.161][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccb/Program.lua
+[00:03:58.161][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/EaseCircleActionIn.lua
+[00:03:58.161][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/node_modules/coc-sumneko-lua/nvim_lua_types/keymap.lua
+[00:03:58.161][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/sp/SkeletonAnimation.lua
+[00:03:58.162][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/EaseBounceInOut.lua
+[00:03:58.162][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/CardinalSplineTo.lua
+[00:03:58.162][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/CardinalSplineBy.lua
+[00:03:58.162][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/EaseBackOut.lua
+[00:03:58.162][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/EaseQuadraticActionOut.lua
+[00:03:58.162][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Animate.lua
+[00:03:58.162][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Physics3DShape.lua
+[00:03:58.162][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/TransitionProgressHorizontal.lua
+[00:03:58.162][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Animation.lua
+[00:03:58.162][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Mesh.lua
+[00:03:58.162][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/EaseOut.lua
+[00:03:58.162][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccs/ArmatureData.lua
+[00:03:58.163][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/ParticleRain.lua
+[00:03:58.163][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Renderer.lua
+[00:03:58.163][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/node_modules/coc-sumneko-lua/nvim_lua_types/lsp.lua
+[00:03:58.163][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/PhysicsJointGroove.lua
+[00:03:58.163][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccui/TabControl.lua
+[00:03:58.163][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccs/ActionTimelineCache.lua
+[00:03:58.163][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Sprite3D.lua
+[00:03:58.163][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/EventListenerPhysicsContact.lua
+[00:03:58.163][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/TransitionZoomFlipAngular.lua
+[00:03:58.164][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/TransitionProgressRadialCCW.lua
+[00:03:58.164][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/FadeOutUpTiles.lua
+[00:03:58.164][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/PhysicsBody.lua
+[00:03:58.164][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccs/ActionScaleFrame.lua
+[00:03:58.164][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/EventDispatcher.lua
+[00:03:58.164][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/TransitionSplitCols.lua
+[00:03:58.164][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/JumpTo.lua
+[00:03:58.164][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/TargetedAction.lua
+[00:03:58.164][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/ActionCamera.lua
+[00:03:58.165][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/AnimationCache.lua
+[00:03:58.165][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Speed.lua
+[00:03:58.165][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Repeat.lua
+[00:03:58.165][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/SplitCols.lua
+[00:03:58.165][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/RenderState.lua
+[00:03:58.165][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/TransitionSlideInL.lua
+[00:03:58.165][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/ControlPotentiometer.lua
+[00:03:58.165][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/GridBase.lua
+[00:03:58.165][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/EaseQuadraticActionInOut.lua
+[00:03:58.165][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccs/ActionTimeline.lua
+[00:03:58.166][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/node_modules/coc-sumneko-lua/nvim_lua_types/api.1.lua
+[00:03:58.166][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/ParticleFireworks.lua
+[00:03:58.166][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/TransitionFadeUp.lua
+[00:03:58.166][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/EventTouch.lua
+[00:03:58.166][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/skynet/library/skynet/socket.lua
+[00:03:58.166][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/ShuffleTiles.lua
+[00:03:58.166][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/nvim/lua/marcopadeiro/set.lua
+[00:03:58.166][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccui/TabHeader.lua
+[00:03:58.166][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccui/RichElementText.lua
+[00:03:58.166][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/ccs/Armature.lua
+[00:03:58.166][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/SpriteFrameCache.lua
+[00:03:58.166][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/FadeOutTRTiles.lua
+[00:03:58.166][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Component.lua
+[00:03:58.167][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/DelayTime.lua
+[00:03:58.167][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/TransitionFadeBL.lua
+[00:03:58.167][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/PhysicsShapeCircle.lua
+[00:03:58.167][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/EventKeyboard.lua
+[00:03:58.167][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/AssetsManagerEx.lua
+[00:03:58.167][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/TransitionProgress.lua
+[00:03:58.167][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/script/client.lua
+[00:03:58.167][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/PhysicsShapeEdgeBox.lua
+[00:03:58.167][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Physics3D6DofConstraint.lua
+[00:03:58.168][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/DirectionLight.lua
+[00:03:58.168][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/EaseBounceOut.lua
+[00:03:58.168][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/MenuItemFont.lua
+[00:03:58.168][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/TMXMapInfo.lua
+[00:03:58.719][info] [#0:script/library.lua:207]: Init builtin library at:	file:///home/marco/.config
+[00:03:58.738][info] [#0:script/plugin.lua:86]: plugin path:	/home/marco/.config
+[00:03:58.738][warn] [#0:script/plugin.lua:101]: plugin not found:	/home/marco/.config
+[00:03:59.186][info] [#0:script/library.lua:207]: Init builtin library at:	file:///home/marco/.config
+[00:03:59.187][info] [#0:script/plugin.lua:86]: plugin path:	/home/marco/.config
+[00:03:59.187][warn] [#0:script/plugin.lua:101]: plugin not found:	/home/marco/.config
+[00:03:59.187][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/Lua%205.4%20en-us%20utf8/os.lua
+[00:03:59.188][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/Lua%205.4%20en-us%20utf8/basic.lua
+[00:03:59.188][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/Lua%205.4%20en-us%20utf8/debug.lua
+[00:03:59.188][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/Lua%205.4%20en-us%20utf8/io.lua
+[00:03:59.634][info] [#0:script/library.lua:207]: Init builtin library at:	nil
+[00:03:59.636][info] [#0:script/provider/diagnostic.lua:486]: Diagnostics scope [<fallback>], files count:[1]
+[00:03:59.637][info] [#0:script/provider/diagnostic.lua:503]: Diagnostics scope [<fallback>] finished, takes [0.002] sec.
+[00:03:59.671][info] [#0:script/workspace/workspace.lua:305]: Preload start:	file:///home/marco/.config
+[00:03:59.671][info] [#0:script/workspace/workspace.lua:311]: Scan files at:	file:///home/marco/.config
+[00:03:59.671][info] [#0:script/workspace/workspace.lua:305]: Preload start:	<fallback>
+[00:03:59.672][info] [#0:script/workspace/workspace.lua:328]: Scan library at:	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/Lua%205.4%20en-us%20utf8
+[00:04:00.414][info] [#0:script/workspace/workspace.lua:328]: Scan library at:	file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/Lua%205.4%20en-us%20utf8
+[00:04:00.415][info] [#0:script/workspace/workspace.lua:348]: Found 11 files at:	<fallback>
+[00:04:00.415][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	<fallback>
+[00:04:00.415][info] [#0:script/workspace/workspace.lua:348]: Found 876 files at:	file:///home/marco/.config
+[00:04:00.415][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/marco/.config
+[00:04:00.716][warn] [#0:script/files.lua:544]: Parse LuaDoc of [file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Jass/library/jass/common.lua] takes [0.160] sec, size [448.808] kb.
+[00:04:01.753][warn] [#0:script/files.lua:532]: Compile [file:///home/marco/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta/3rd/Cocos4.0/library/cc/Pass.lua] takes [0.343] sec, size [3.727] kb.
+[00:04:02.720][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [2.334] sec: <fallback>
+[00:04:02.720][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: <fallback>
+[00:04:02.720][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	<fallback>
+[00:04:02.720][info] [#0:script/workspace/workspace.lua:350]: Preload finish at:	<fallback>
+[00:04:02.724][warn] [#0:script/proto/proto.lua:122]: Response of [workspace/diagnostic/refresh] error [-32601]: Unhandled method workspace/diagnostic/refresh
+[00:04:04.661][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [2.339] sec: file:///home/marco/.config
+[00:04:04.661][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/marco/.config
+[00:04:04.661][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/marco/.config
+[00:04:04.661][info] [#0:script/workspace/workspace.lua:350]: Preload finish at:	file:///home/marco/.config
+[00:04:04.956][warn] [#0:script/proto/proto.lua:122]: Response of [workspace/diagnostic/refresh] error [-32601]: Unhandled method workspace/diagnostic/refresh
+[00:04:04.957][warn] [#0:script/proto/proto.lua:171]: Method [textDocument/inlayHint] takes [3.312]sec. {
+  id = 6,
+  jsonrpc = "2.0",
+  method = "textDocument/inlayHint",
+  params = {
+    range = {
+      end = {
+        character = 0,
+        line = 5
+      },
+      start = {
+        character = 0,
+        line = 0
+      }
+    },
+    textDocument = {
+      uri = "file:///home/marco/.config/nvim/after/plugin/color.lua"
+    }
+  }
+}
+[00:04:04.958][info] [#0:script/provider/diagnostic.lua:486]: Diagnostics scope [file:///home/marco/.config], files count:[864]
+[00:04:04.960][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/marco/.config/nvim/after/plugin/color.lua
+[00:04:09.717][info] [#0:script/provider/diagnostic.lua:503]: Diagnostics scope [file:///home/marco/.config] finished, takes [4.756] sec.
+[00:04:09.724][info] [#0:script/provider/diagnostic.lua:486]: Diagnostics scope [<fallback>], files count:[864]
+[00:04:12.401][info] [#0:script/provider/diagnostic.lua:503]: Diagnostics scope [<fallback>] finished, takes [2.676] sec.
