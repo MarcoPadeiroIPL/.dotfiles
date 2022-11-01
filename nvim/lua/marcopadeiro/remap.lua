@@ -1,9 +1,13 @@
 local nnoremap = require("marcopadeiro.keymap").nnoremap
 
 nnoremap("<leader>pv", "<cmd>Ex<CR>")
-nnoremap("<F2>", "<cmd>Telescope find_files<CR>")
-nnoremap("<leader>pb", "<cmd>Telescope find_files<CR>")
-nnoremap("<leader>g", "coc#_select_confirm")
+nnoremap("<leader><leader>", "<cmd>Telescope find_files<CR>")
+
+nnoremap("<leader>y", '"+y')
+nnoremap("<leader>p", '"+p')
+nnoremap("<leader>P", '"+P')
+nnoremap("<leader>w", ':w')
+
 vim.api.nvim_set_keymap("n", "<leader>.", "<Plug>(coc-codeaction)", {})
 vim.api.nvim_set_keymap("n", "<leader>l", ":CocCommand eslint.executeAutofix<CR>", {})
 vim.api.nvim_set_keymap("n", "gd", "<Plug>(coc-definition)", {silent = true})

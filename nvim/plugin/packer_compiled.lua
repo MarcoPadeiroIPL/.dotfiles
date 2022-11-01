@@ -84,16 +84,6 @@ _G.packer_plugins = {
     path = "/home/marco/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
   },
-  ["nord.nvim"] = {
-    loaded = true,
-    path = "/home/marco/.local/share/nvim/site/pack/packer/start/nord.nvim",
-    url = "https://github.com/shaunsingh/nord.nvim"
-  },
-  ["nvim-treesitter"] = {
-    loaded = true,
-    path = "/home/marco/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
-    url = "https://github.com/nvim-treesitter/nvim-treesitter"
-  },
   ["onedark.nvim"] = {
     loaded = true,
     path = "/home/marco/.local/share/nvim/site/pack/packer/start/onedark.nvim",
@@ -113,6 +103,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/marco/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["vim-fugitive"] = {
+    loaded = true,
+    path = "/home/marco/.local/share/nvim/site/pack/packer/start/vim-fugitive",
+    url = "https://github.com/tpope/vim-fugitive"
   }
 }
 
