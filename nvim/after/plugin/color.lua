@@ -1,5 +1,4 @@
 -- Lua
-require('onedark').setup {
-    style = 'deep'
+require('ayu').setup {
+    mirage = false,
 }
-require('onedark').load()

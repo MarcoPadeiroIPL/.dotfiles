@@ -10,7 +10,7 @@ return require('packer').startup(function(use)
   use 'nvim-telescope/telescope.nvim'
   use 'nvim-lua/plenary.nvim'
   use 'neoclide/coc.nvim'
-  use 'navarasu/onedark.nvim'
+  use 'Shatur/neovim-ayu'
   use 'tpope/vim-fugitive'
   use 'honza/vim-snippets'
 
