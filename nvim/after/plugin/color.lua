@@ -1,4 +1,3 @@
 -- Lua
-require('ayu').setup {
-    mirage = false,
-}
+require('onedark').setup()
+require('onedark').load()
