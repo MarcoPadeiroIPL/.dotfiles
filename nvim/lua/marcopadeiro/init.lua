@@ -1,4 +1,3 @@
-require('leap').add_default_mappings()
 require("marcopadeiro.set")
 require("marcopadeiro.packer")
 require("marcopadeiro.keymap")

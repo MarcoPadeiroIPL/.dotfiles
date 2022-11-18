@@ -1,4 +1,5 @@
 local nnoremap = require("marcopadeiro.keymap").nnoremap
+require('leap').add_default_mappings()
 
 nnoremap("<leader>pv", "<cmd>Ex<CR>")
 nnoremap("<leader><leader>", "<cmd>Telescope find_files<CR>")
