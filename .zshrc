@@ -85,15 +85,15 @@ plugins=(
     zsh-autosuggestions
     git
     z
-    zsh-syntax-highlighting
     zsh-completions
     #command-not-found
     #autojump
 #    zsh-vi-mode
+    zsh-syntax-highlighting
 )
 
-source $ZSH/oh-my-zsh.sh
 fpath+=${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions/src
+source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
