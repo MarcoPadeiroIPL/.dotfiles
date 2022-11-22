@@ -3,25 +3,21 @@
 ####################################################
 
 # Picom
-# exec --no-startup-id picom -b --config ~/.picom.conf
+exec --no-startup-id picom -b --config ~/.config/picom/config
 
 # Wallpaper
-# exec --no-startup-id feh --bg-scale ~/Downloads/wallpaper2.jpg
+exec --no-startup-id feh --bg-scale ~/Downloads/wallpaper.png
 
 # i3
 exec --no-startup-id dex --autostart --environment i3
 
-exec --no-startup-id . ~/programs/battery_stats/script.sh start
+# exec --no-startup-id . ~/programs/battery_stats/script.sh start
 
 exec_always --no-startup-id xinput set-prop 'MSFT0001:00 06CB:CE2D Touchpad' 'libinput Tapping Enabled' 1
+exec_always --no-startup-id xinput set-prop 'MSFT0001:00 06CB:CE2D Touchpad' 275 1
 
-bar {
-   status_command i3status
-   position top
-   font pango:JetBrains Mono Nerd Font 8
-}
 # polybar
-# exec_always --no-startup-id ~/.config/polybar/launch.sh
+ exec_always --no-startup-id ~/.config/polybar/launch.sh 
 
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet
@@ -31,10 +27,10 @@ exec --no-startup-id nm-applet
 ####################################################
 #                    AESTHETICS                    #
 ####################################################
-for_window [class="^.*"] border pixel 1
-# gaps inner 15
-#gaps outer 5
-#border_radius 10
+for_window [class="^.*"] border pixel 0
+gaps inner 30
+gaps outer 5
+#border_radius 15
 font pango:JetBrains Mono Nerd Font 9
 
 
@@ -55,23 +51,24 @@ bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 
 # exit i3 (logs you out of your X session)
-bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+bindsym $mod+Shift+e exec --no-startup-id "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 
 # Kill Apps
 bindsym $mod+Shift+q kill
 
 # Run DMenu
-bindsym $mod+d exec --no-startup-id dmenu_run
+bindsym $mod+d exec --no-startup-id rofi -no-config -no-lazy-grab -show drun -modi drun -theme ~/.config/polybar/forest/scripts/rofi/launcher.rasi
+ 
 
 # PrintScreen
-bindsym Print exec flameshot gui
+bindsym Print exec --no-startup-id flameshot gui
 
 # HDMI
-bindsym XF86Calculator exec . ~/scrips/hdmi.sh 
+bindsym XF86Calculator exec --no-startup-id . ~/scrips/hdmi.sh 
 
 # Brighness Keys
-bindsym XF86MonBrightnessUp exec . ~/.config/i3/brightness.sh +
-bindsym XF86MonBrightnessDown exec . ~/.config/i3/brightness.sh -
+bindsym XF86MonBrightnessUp exec --no-startup-id . ~/.config/i3/brightness.sh +
+bindsym XF86MonBrightnessDown exec --no-startup-id . ~/.config/i3/brightness.sh -
 
 # Volume Keys
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status
@@ -80,8 +77,8 @@ bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ to
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
 
 # App Lauch Keys
-bindsym $mod+Return exec alacritty
-bindsym $mod+p exec google-chrome-stable
+bindsym $mod+Return exec --no-startup-id alacritty
+bindsym $mod+p exec --no-startup-id google-chrome-stable
 
 
 
