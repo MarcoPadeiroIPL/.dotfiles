@@ -14,7 +14,8 @@ exec --no-startup-id dex --autostart --environment i3
 # exec --no-startup-id . ~/programs/battery_stats/script.sh start
 
 exec_always --no-startup-id xinput set-prop 'MSFT0001:00 06CB:CE2D Touchpad' 'libinput Tapping Enabled' 1
-exec_always --no-startup-id xinput set-prop 'MSFT0001:00 06CB:CE2D Touchpad' 275 1
+exec_always --no-startup-id xinput set-prop 'MSFT0001:00 06CB:CE2D Touchpad' 'libinput Natural Scrolling Enabled' 1
+exec --no-startup-id setxkbmap -option 'grp:alt_shift_toggle' -layout us,pt
 
 # polybar
  exec_always --no-startup-id ~/.config/polybar/launch.sh 
