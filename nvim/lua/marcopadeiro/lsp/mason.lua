@@ -3,6 +3,18 @@ local servers = {
 	"sumneko_lua",
 	"pyright",
 	"jsonls",
+	"clangd",
+	"asm_lsp",
+	"csharp_ls",
+	"cssls",
+	"gopls",
+	"html",
+	"intelephense",
+	"marksman",
+	"phpactor",
+	"rust_analyzer",
+	"sqlls",
+	"tsserver",
 }
 
 local settings = {
