@@ -1,5 +1,9 @@
-require('onedark').setup {
-    --style = 'deep',
+local status_ok, onedark = pcall(require, "onedark")
+if not status_ok then
+    return
+end
+
+onedark.setup {
     colors = {
         light_red = "#c16a65" 
     },
