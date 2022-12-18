@@ -42,6 +42,8 @@ return require('packer').startup(function(use)
       }
     }
 
+    -- using packer.nvim
+use {'akinsho/bufferline.nvim', tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons'}
     -- Utils
     use 'windwp/nvim-autopairs' -- VSCode like autopairs
     use 'github/copilot.vim' -- Github copilot

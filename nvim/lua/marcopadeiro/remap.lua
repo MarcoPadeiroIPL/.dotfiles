@@ -34,5 +34,9 @@ nnoremap("<C-j>", "<C-w>j")
 nnoremap("<C-k>", "<C-w>k")
 nnoremap("<C-l>", "<C-w>l")
 
+-- Better buffer navigation
+nnoremap("<S-l>", ":bnext<CR>")
+nnoremap("<S-h>", ":bprevious<CR>")
+
 -- Nvimtree
 nnoremap("<leader>e", ":NvimTreeToggle<cr>")
