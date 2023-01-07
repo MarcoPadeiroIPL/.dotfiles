@@ -6,7 +6,7 @@
 exec --no-startup-id picom -b --config ~/.config/picom/config
 
 # Wallpaper
-exec --no-startup-id feh --bg-scale ~/Downloads/wallpaper.png
+exec --no-startup-id feh --bg-scale ~/Downloads/wallpaper.jpg
 
 # i3
 exec --no-startup-id dex --autostart --environment i3
@@ -20,6 +20,8 @@ exec --no-startup-id setxkbmap -option 'grp:alt_shift_toggle' -layout us,pt
 # polybar
  exec_always --no-startup-id ~/.config/polybar/launch.sh 
 
+# keyboard speed
+ exec_always --no-startup-id xset r rate 220 40
 # alacritty
 exec_always --no-startup-id ~/dotfiles/scripts/alacritty.sh i3
 
@@ -82,7 +84,7 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 
 # App Lauch Keys
 bindsym $mod+Return exec --no-startup-id alacritty
-bindsym $mod+p exec --no-startup-id google-chrome-stable
+bindsym $mod+p exec --no-startup-id firefox
 
 
 
